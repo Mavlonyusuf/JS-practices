@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <!-- ADD FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ADD CSS -->
+    <link rel="stylesheet" href="modal.css">
+</head>
+<body>
+    <div class="container">
+        <button class="btn show-btn" id="show-btn">
+            Show modal❤️
+        </button>
+        <div class="modal hidden" id="modal-items">
+            <div class="modal-header">
+                <h3 class="modal-subtitle">I love Windows 💕</h3>
+                <button class="btn close-btn" id="close-btn"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body">
+                <h2 class="modal-title">Modal Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus amet, sapiente accusantium quas, pariatur perspiciatis ipsa nemo labore odit aperiam atque mollitia! Voluptates voluptatum esse iure vitae quasi? Ratione est, assumenda iste praesentium delectus a similique odit repudiandae amet?</p>
+            </div>
+        </div>
+    </div>
+            <!--  OVERLAY  -->
+    <div class="overlay hidden" id="overlay"></div>
+
+    <!-- ADD JS -->
+    <script src="modal.js"></script>
+</body>
+</html>
